@@ -1,0 +1,154 @@
+
+
+html {
+	height: 100%;
+}
+body {
+	font-family: 'Rubik', sans-serif;
+	font-size: 0.875rem;
+	color: #666;
+	background-color: #fafafa;
+	overflow-x: hidden;
+	height: 100%;
+}
+
+
+.form-control {
+	border-radius: 0;
+	box-shadow: none;
+	padding: 0.469rem 0.75rem;
+	border-color: #eaeaea;
+	font-size: 14px;
+	min-height: 40px;
+}
+.form-control:focus {
+	border-color: #009efb;
+	box-shadow: none;
+	outline: 0 none;
+}
+a {
+	color: #009ce7;
+}
+input,
+button,
+a {
+	transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+}
+input,
+button {
+	outline: none;
+}
+input[type="file"] {
+	height: auto;
+	padding: 6px 0.75rem;
+}
+input[type=text],
+input[type=password] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+textarea.form-control {
+	resize: vertical;
+}
+
+
+.display-block {
+	display: block;
+}
+
+
+
+
+
+
+.form-control.form-control-sm {
+	padding: 0.25rem 0.5rem;
+
+
+.h4 {
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+	margin: 0;
+	color: #333;
+}
+ 
+.padding: 10px;
+}
+
+
+
+.content-full {
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+
+	
+	.page-wrapper {
+		margin-left: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+
+	.page-wrapper {
+		-webkit-transition: all 0.4s ease;
+		-moz-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+	}
+
+
+	
+
+	
+	
+	h4 {
+		font-size: 1.12em;
+	}
+	
+
+	.page-title {
+		font-size: 1.2em;
+		padding-top: 10px;
+	}
+	
+	
+	
+
+	
+	.filter-row {
+		margin-bottom: 15px;
+	}
+	.page-wrapper > .content {
+		padding: 15px;
+	}
+	
+	
+	
+	
+
+
+	.page-title {
+		font-size: 18px;
+	}
+	
+	
+	
+	
+	.content {
+		padding: 0 50px;
+	}
+	
+	.submit-btn {
+		min-width: 150px;
+	}
+
+
+

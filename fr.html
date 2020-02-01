@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- add-appointment24:07-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <title>Preclinic - Medical & Hospital - Bootstrap 4 Admin Template</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="content">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h4 class="page-title">AJOUTER UN NOUVEAU PATIENT</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <form>
+                        <form action="./database/addPatient.php" method="post">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <input name="nom" type="text" class="form-control" placeholder="Nom">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="prenom" type="text" class="form-control" placeholder="Prenom">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="reference" type="text" class="form-control" placeholder="Reference">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="cin" type="text" class="form-control" placeholder="CIN">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="mutuelle" type="text" class="form-control" placeholder="Mutuelle">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <input name="scolarite" type="text" class="form-control" placeholder="Scolarite">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="date_naissance_age" type="text" class="form-control" placeholder="Date naissance/Age">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="adresse" type="text" class="form-control" placeholder="Adresse">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="tel" type="text" class="form-control" placeholder="Tel">
+                                    </div>
+                                    <div class="form-group">
+                                        <input name="autre_inforamtions" type="text" class="form-control" placeholder="Autre inforamtions">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <input name="profession" type="text" class="form-control" placeholder="Profession">
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" name="situation_familiale">
+                                            <option value=''>Situation familiale</option>
+                                            <option value='Célibataire'>Célibataire</option>
+                                            <option value='Marié'>Marié</option>
+                                            <option value='Divorcé'>Divorcé</option>
+                                            <option value='Remarié'>Remarié</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control" name="nombre_denfant">
+                                            <option value='0'>Nombre d'enfants</option>
+                                            <option value='1'>1</option>
+                                            <option value='2'>2</option>
+                                            <option value='3'>3</option>
+                                            <option value='4'>4</option>
+                                            <option value='5'>5</option>
+                                            <option value='6'>6</option>
+                                            <option value='7'>7</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">AJOUTER</button>
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+                
